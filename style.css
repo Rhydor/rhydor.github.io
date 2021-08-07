@@ -26,9 +26,7 @@ footer{
   bottom: 0;
   width: 100%;
 }
-p{
-  text-justify: auto;
-}
+
 .avatar_round{
   width: 200px;
   border-radius: 50%;
@@ -46,6 +44,7 @@ p{
 
 .work_progress{
   font-family: Mono;
+  align-content:flex-end;
   position: absolute;
   text-align: center;
   margin-left: 25%;
