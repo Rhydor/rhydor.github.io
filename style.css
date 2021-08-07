@@ -44,12 +44,14 @@ footer{
 
 .work_progress{
   font-family: Mono;
-  align-content:flex-end;
   position: absolute;
   text-align: center;
   margin-left: 25%;
   width: 75%;
   height: 100%;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
 }
 
 .spotify{
