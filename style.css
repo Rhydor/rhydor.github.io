@@ -37,23 +37,19 @@ p{
 .info{
   font-family: Mono;
   position: absolute;
-  align-content:flex-start;
   width: 25%;
   height: 100%;
   background-color: #eea990;
   overflow-y: scroll;
 }
 
-.one{
+.work_progress{
   font-family: Mono;
   position: absolute;
   text-align: center;
   margin-left: 25%;
   width: 75%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .spotify{
