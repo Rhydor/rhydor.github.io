@@ -3,8 +3,17 @@ body{
     background-image: url('./img/bg.png');
 }
 
-h1, h2, h3, h4, h5, h6{
-  color:#49796b;
+.tittle{
+  color: #49796b;
+}
+
+.subtittle{
+  color: #317873;
+}
+
+.work_text{
+  color: #ff6f69;
+  background-color: #49796b;
 }
 
 main{
@@ -17,7 +26,9 @@ footer{
   bottom: 0;
   width: 100%;
 }
-
+p{
+  text-justify: auto;
+}
 .avatar_round{
   width: 200px;
   border-radius: 50%;
@@ -26,10 +37,23 @@ footer{
 .info{
   font-family: Mono;
   position: absolute;
-  width: 440px;
+  align-content:flex-start;
+  width: 25%;
   height: 100%;
   background-color: #eea990;
   overflow-y: scroll;
+}
+
+.one{
+  font-family: Mono;
+  position: absolute;
+  text-align: center;
+  margin-left: 25%;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .spotify{
