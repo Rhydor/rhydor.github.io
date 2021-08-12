@@ -28,13 +28,13 @@
   .info {
     position: relative;
     overflow-y: scroll;
-    background-color: #c9c9ff;
   }
   .work-progress{
     position: relative;
     text-align: center;
     width: 100%;
     height: 100%;
+    background-color: #c9c9ff;
   }
 }
 /* ---- */
