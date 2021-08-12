@@ -28,6 +28,7 @@
   .info {
     position: relative;
     overflow-y: scroll;
+    background-color: #c9c9ff;
   }
   .work-progress{
     position: relative;
@@ -55,7 +56,6 @@
 @media only screen and (min-height: 890px) and (orientation: landscape) {
   .info {
     position: absolute;
-    /*overflow-y: scroll;*/
   }
   .work-progress{
     position: absolute;
