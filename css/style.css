@@ -12,6 +12,33 @@
     width: 60%;
     height: 100%;
   }
+
+  .wave-0{
+    position:absolute;
+  }
+
+  .waveo-0{
+    height: 0%;
+    width: 0%;
+  }
+
+  .wave-1{
+    position:absolute;
+  }
+
+  .waveo-1{
+    height: 0%;
+    width: 0%;
+  }
+
+  .wave-2{
+    position:absolute;
+  }
+
+  .waveo-2{
+    height: 0%;
+    width: 0%;
+  }
 }
 @media only screen and (max-height: 890px) and (orientation: landscape) {
   .info {
@@ -22,6 +49,33 @@
     position: absolute;
     text-align: center;
     height: 100%;
+  }
+
+  .wave-0{
+    position:absolute;
+  }
+
+  .waveo-0{
+    height: 0%;
+    width: 0%;
+  }
+
+  .wave-1{
+    position:absolute;
+  }
+
+  .waveo-1{
+    height: 0%;
+    width: 0%;
+  }
+
+  .wave-2{
+    position:absolute;
+  }
+
+  .waveo-2{
+    height: 0%;
+    width: 0%;
   }
 }
 @media only screen and (max-width: 1079px) and (orientation: portrait) {
@@ -36,31 +90,102 @@
     height: 100%;
     background-color: #c9c9ff;
   }
-}
-/* ---- */
-@media only screen and (min-width: 1080px) and (orientation: landscape) {
-  .info {
-    position: absolute;
-    background-color: #eea990;
-    width: 30%;
+
+  .wave-0{
+    position:absolute;
   }
 
-  .work-progress{
-    position: absolute;
-    text-align: center;
-    margin-left: 30%;
-    width: 70%;
-    height: 100%;
+  .waveo-0{
+    height: 0%;
+    width: 0%;
+  }
+
+  .wave-1{
+    position:absolute;
+  }
+
+  .waveo-1{
+    height: 0%;
+    width: 0%;
+  }
+
+  .wave-2{
+    position:absolute;
+  }
+
+  .waveo-2{
+    height: 0%;
+    width: 0%;
   }
 }
-@media only screen and (min-height: 890px) and (orientation: landscape) {
+/* ---- */
+@media only screen and (min-height: 890px) and (orientation: landscape)
+           ,screen and (min-width: 1080px) and (orientation: landscape) {
   .info {
-    position: absolute;
+    position:absolute;
+    width: 30%;
   }
   .work-progress{
     position: absolute;
     text-align: center;
     height: 100%;
+    margin-left: 30%;
+    width: 70%;
+  }
+
+  .info-color {
+    position:absolute;
+    background-color: #eea990;/*#eea990;*/
+    display: block;
+    height: 100%;
+    width: 25%;
+  }
+
+  .wave-0{
+    position:absolute;
+    display: block;
+    margin-left: 25%;
+    height: 100%;
+    width: auto;
+    stroke: none;
+    fill: #eea990;
+  }
+
+  .waveo-0{
+    height: 100%;
+    width: 100%;
+  }
+
+  .wave-1{
+    position:absolute;
+    display: block;
+    margin-left: 26.7%;
+    height: 100%;
+    width: auto;
+    stroke: none;
+    fill: #f5cbbc;
+  	opacity: 0.9;
+  }
+
+  .waveo-1{
+    height: 100%;
+    width: 100%;
+  }
+
+  .wave-2{
+    position:absolute;
+    display: block;
+    margin-left: 28%;
+    height: 100%;
+    width: auto;
+    stroke: none;
+    fill: #f8dcd2;
+  	opacity: 0.7;
+  }
+
+  .waveo-2{
+    height: 100%;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 1080px) and (orientation: portrait) {
@@ -71,11 +196,35 @@
   }
 
   .work-progress{
-    position: absolute;
-    text-align: center;
     margin-left: 30%;
     width: 70%;
-    height: 100%;
+  }
+
+  .wave-0{
+    position:absolute;
+  }
+
+  .waveo-0{
+    height: 0%;
+    width: 0%;
+  }
+
+  .wave-1{
+    position:absolute;
+  }
+
+  .waveo-1{
+    height: 0%;
+    width: 0%;
+  }
+
+  .wave-2{
+    position:absolute;
+  }
+
+  .waveo-2{
+    height: 0%;
+    width: 0%;
   }
 }
 
@@ -87,7 +236,7 @@ body{
 
 .tittle{
   color: white;
-  background-color: #49796b;
+  /*background-color: #49796b;*/
 }
 
 .subtittle{
@@ -96,7 +245,7 @@ body{
 
 .work_text{
   color: #ff6f69;
-  background-color: #49796b;
+  /*background-color: #49796b;*/
 }
 
 main{
