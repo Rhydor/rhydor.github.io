@@ -316,8 +316,8 @@ body
 
 main
 {
-    margin: 5%;
     height: 100%;
+    margin: 5%;
 }
 
 footer
@@ -394,8 +394,9 @@ footer
     margin: .07%;
 }
 
-.video-process{
-    margin: 4%;
+.video-process
+{
     width: 80%;
     height: 50%;
+    margin: 4%;
 }
