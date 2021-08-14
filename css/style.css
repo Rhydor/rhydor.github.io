@@ -307,6 +307,8 @@
 
 body
 {
+    font-family: monospace !important;
+
     margin: 0;
 
     background-image: url('../img/bg.png');
