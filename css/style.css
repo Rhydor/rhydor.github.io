@@ -325,17 +325,6 @@ footer
     background-color: #a990ee;
 }
 
-::before,
-::after,
-input,
-button,
-textarea,
-select,
-input[type='file']
-{
-    font-family: monospace !important;
-}
-
 .info::-webkit-scrollbar
 {
     display: none;  /* Ocultar scroll */
