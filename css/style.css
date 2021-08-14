@@ -307,8 +307,6 @@
 
 body
 {
-    font-family: monospace;
-
     margin: 0;
 
     background-image: url('../img/bg.png');
@@ -323,6 +321,17 @@ footer
     height: 3%;
 
     background-color: #a990ee;
+}
+
+::before,
+::after,
+input,
+button,
+textarea,
+select,
+input[type='file']
+{
+    font-family: monospace !important;
 }
 
 .info::-webkit-scrollbar
@@ -356,7 +365,8 @@ footer
 
 .work_text
 {
-    margin: 20% 0% 0% 0%;
+    margin: 20% 0 0 0;
+
     color: #ff6f69;
     /*background-color: #49796b;*/
 }
