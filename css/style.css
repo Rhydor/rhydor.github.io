@@ -1,297 +1,401 @@
 /* MOBILE */
-@media only screen and (max-width: 1079px) and (orientation: landscape) {
-  .info {
-    position: absolute;
-    background-color: #c9c9ff;
-    width: 40%;
-  }
+@media only screen and (max-width: 1079px) and (orientation: landscape)
+{
+    .info
+    {
+        position: absolute;
 
-  .work-progress{
-    position: absolute;
-    text-align: center;
-    margin-left: 40%;
-    width: 60%;
-    height: 100%;
-  }
+        width: 40%;
 
-  .wave-0{
-    position:absolute;
-  }
+        background-color: #c9c9ff;
+    }
 
-  .waveo-0{
-    height: 0%;
-    width: 0%;
-  }
+    .work-progress
+    {
+        position: absolute;
 
-  .wave-1{
-    position:absolute;
-  }
+        width: 60%;
+        height: 100%;
+        margin-left: 40%;
 
-  .waveo-1{
-    height: 0%;
-    width: 0%;
-  }
+        text-align: center;
+    }
 
-  .wave-2{
-    position:absolute;
-  }
+    .wave-0
+    {
+        position: absolute;
+    }
 
-  .waveo-2{
-    height: 0%;
-    width: 0%;
-  }
+    .waveo-0
+    {
+        width: 0;
+        height: 0;
+    }
+
+    .wave-1
+    {
+        position: absolute;
+    }
+
+    .waveo-1
+    {
+        width: 0;
+        height: 0;
+    }
+
+    .wave-2
+    {
+        position: absolute;
+    }
+
+    .waveo-2
+    {
+        width: 0;
+        height: 0;
+    }
 }
-@media only screen and (max-height: 890px) and (orientation: landscape) {
-  .info {
-    position: absolute;
-    overflow-y: scroll;
-  }
-  .work-progress{
-    position: absolute;
-    text-align: center;
-    height: 100%;
-  }
+@media only screen and (max-height: 890px) and (orientation: landscape)
+{
+    .info
+    {
+        position: absolute;
 
-  .wave-0{
-    position:absolute;
-  }
+        overflow-y: scroll;
+    }
+    .work-progress
+    {
+        position: absolute;
 
-  .waveo-0{
-    height: 0%;
-    width: 0%;
-  }
+        height: 100%;
 
-  .wave-1{
-    position:absolute;
-  }
+        text-align: center;
+    }
 
-  .waveo-1{
-    height: 0%;
-    width: 0%;
-  }
+    .wave-0
+    {
+        position: absolute;
+    }
 
-  .wave-2{
-    position:absolute;
-  }
+    .waveo-0
+    {
+        width: 0;
+        height: 0;
+    }
 
-  .waveo-2{
-    height: 0%;
-    width: 0%;
-  }
+    .wave-1
+    {
+        position: absolute;
+    }
+
+    .waveo-1
+    {
+        width: 0;
+        height: 0;
+    }
+
+    .wave-2
+    {
+        position: absolute;
+    }
+
+    .waveo-2
+    {
+        width: 0;
+        height: 0;
+    }
 }
-@media only screen and (max-width: 1079px) and (orientation: portrait) {
-  .info {
-    position: relative;
-    overflow-y: scroll;
-  }
-  .work-progress{
-    position: relative;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    background-color: #c9c9ff;
-  }
+@media only screen and (max-width: 1079px) and (orientation: portrait)
+{
+    .info
+    {
+        position: relative;
 
-  .wave-0{
-    position:absolute;
-  }
+        overflow-y: scroll;
+    }
+    .work-progress
+    {
+        position: relative;
 
-  .waveo-0{
-    height: 0%;
-    width: 0%;
-  }
+        width: 100%;
+        height: 100%;
 
-  .wave-1{
-    position:absolute;
-  }
+        text-align: center;
 
-  .waveo-1{
-    height: 0%;
-    width: 0%;
-  }
+        background-color: #c9c9ff;
+    }
 
-  .wave-2{
-    position:absolute;
-  }
+    .wave-0
+    {
+        position: absolute;
+    }
 
-  .waveo-2{
-    height: 0%;
-    width: 0%;
-  }
+    .waveo-0
+    {
+        width: 0;
+        height: 0;
+    }
+
+    .wave-1
+    {
+        position: absolute;
+    }
+
+    .waveo-1
+    {
+        width: 0;
+        height: 0;
+    }
+
+    .wave-2
+    {
+        position: absolute;
+    }
+
+    .waveo-2
+    {
+        width: 0;
+        height: 0;
+    }
 }
 /* PC */
 @media only screen and (min-height: 890px) and (orientation: landscape)
-           ,screen and (min-width: 1080px) and (orientation: landscape) {
-  .info {
-    position:absolute;
-    width: 30%;
-  }
-  .work-progress{
-    position: absolute;
-    text-align: center;
-    height: 100%;
-    margin-left: 30%;
-    width: 70%;
-  }
+           ,screen and (min-width: 1080px) and (orientation: landscape)
+{
+    .info
+    {
+        position: absolute;
 
-  .info-color {
-    position:absolute;
-    background-color: #eea990;/*#eea990;*/
-    display: block;
-    height: 100%;
-    width: 23%;
-  }
+        width: 30%;
+    }
+    .work-progress
+    {
+        position: absolute;
 
-  .wave-0{
-    position:absolute;
-    display: block;
-    margin-left: 23%;
-    height: 100%;
-    width: auto;
-    stroke: none;
-    fill: #eea990;
-  }
+        width: 70%;
+        height: 100%;
+        margin-left: 30%;
 
-  .waveo-0{
+        text-align: center;
+    }
+
+    .info-color
+    {
+        position: absolute;
+
+        display: block;
+
+        width: 23%;
+        height: 100%;
+
+        background-color: #eea990;/*#eea990;*/
+    }
+
+    .wave-0
+    {
+        position: absolute;
+
+        display: block;
+
+        width: auto;
+        height: 100%;
+        margin-left: 23%;
+
+        stroke: none;
+        fill: #eea990;
+    }
+
+    .waveo-0
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .wave-1
+    {
+        position: absolute;
+
+        display: block;
+
+        width: auto;
+        height: 100%;
+        margin-left: 26%;
+
+        opacity: .9;
+
+        stroke: none;
+        fill: #f5cbbc;
+    }
+
+    .waveo-1
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .wave-2
+    {
+        position: absolute;
+
+        display: block;
+
+        width: auto;
+        height: 100%;
+        margin-left: 29%;
+
+        opacity: .7;
+
+        stroke: none;
+        fill: #f8dcd2;
+    }
+
+    .waveo-2
+    {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (min-width: 1080px) and (orientation: portrait)
+{
+    .info
+    {
+        position: absolute;
+
+        width: 30%;
+
+        background-color: #eea990;
+    }
+
+    .work-progress
+    {
+        width: 70%;
+        margin-left: 30%;
+    }
+
+    .wave-0
+    {
+        position: absolute;
+    }
+
+    .waveo-0
+    {
+        width: 0;
+        height: 0;
+    }
+
+    .wave-1
+    {
+        position: absolute;
+    }
+
+    .waveo-1
+    {
+        width: 0;
+        height: 0;
+    }
+
+    .wave-2
+    {
+        position: absolute;
+    }
+
+    .waveo-2
+    {
+        width: 0;
+        height: 0;
+    }
+}
+
+body
+{
+    font-family: monospace;
+
+    margin: 0;
+
+    background-image: url('../img/bg.png');
+}
+
+main
+{
+    margin: 5%;
     height: 100%;
+}
+
+footer
+{
+    position: fixed;
+    bottom: 0;
+
     width: 100%;
-  }
+    height: 3%;
 
-  .wave-1{
-    position:absolute;
-    display: block;
-    margin-left: 26%;
-    height: 100%;
-    width: auto;
-    stroke: none;
-    fill: #f5cbbc;
-  	opacity: 0.9;
-  }
-
-  .waveo-1{
-    height: 100%;
-    width: 100%;
-  }
-
-  .wave-2{
-    position:absolute;
-    display: block;
-    margin-left: 29%;
-    height: 100%;
-    width: auto;
-    stroke: none;
-    fill: #f8dcd2;
-  	opacity: 0.7;
-  }
-
-  .waveo-2{
-    height: 100%;
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 1080px) and (orientation: portrait) {
-  .info {
-    position: absolute;
-    background-color: #eea990;
-    width: 30%;
-  }
-
-  .work-progress{
-    margin-left: 30%;
-    width: 70%;
-  }
-
-  .wave-0{
-    position:absolute;
-  }
-
-  .waveo-0{
-    height: 0%;
-    width: 0%;
-  }
-
-  .wave-1{
-    position:absolute;
-  }
-
-  .waveo-1{
-    height: 0%;
-    width: 0%;
-  }
-
-  .wave-2{
-    position:absolute;
-  }
-
-  .waveo-2{
-    height: 0%;
-    width: 0%;
-  }
+    background-color: #a990ee;
 }
 
-body{
-  margin: 0;
-  background-image: url('../img/bg.png');
-  font-family: monospace;
-}
+.info::-webkit-scrollbar
+{
+    display: none;  /* Ocultar scroll */
 
-main{
-  margin: 5%;
-}
-
-footer{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 3%;
-  background-color: #a990ee;
-}
-
-.info::-webkit-scrollbar {
     width: 8px;     /* Tamaño del scroll en vertical */
     height: 8px;    /* Tamaño del scroll en horizontal */
-    display: none;  /* Ocultar scroll */
 }
 
-.tittle{
-  color: white;
-  /*background-color: #49796b;*/
+.tittle
+{
+    color: white;
+    /*background-color: #49796b;*/
 }
 
-.subtittle{
-  color: #317873;
+.subtittle
+{
+    color: #317873;
 }
 
-.work_text{
-  color: #ff6f69;
-  /*background-color: #49796b;*/
+.work_text
+{
+    color: #ff6f69;
+    /*background-color: #49796b;*/
 }
 
-.avatar_round{
-  width: 200px;
-  border-radius: 50%;
+.avatar_round
+{
+    width: 200px;
+
+    border-radius: 50%;
 }
 
-.info{
-  align-content:flex-start;
-  height: 100%;
+.info
+{
+    height: 100%;
+
+    align-content: flex-start;
 }
 
-.spotify{
-   width: 300px;
-   height: 380px;
+.spotify
+{
+    width: 300px;
+    height: 380px;
 }
 
-.social{
-  text-align: center;
+.social
+{
+    text-align: center;
 }
 
-.copy{
-  position: fixed;
-  align-content: flex-end;
+.copy
+{
+    position: fixed;
+
+    align-content: flex-end;
 }
 
-.icon-footer{
-  margin: 0.07%;
-  width: 1.5%;
+.icon-footer
+{
+    width: 1.5%;
+    margin: .07%;
+}
+
+.video-process{
+    margin: 4%;
+    width: 80%;
+    height: 50%;
 }
