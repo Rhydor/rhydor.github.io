@@ -8,6 +8,10 @@ body
     background-image: url('../img/bg.png');
 }
 
+a{
+  text-decoration: none;
+}
+
 .info
 {
     position: absolute;
@@ -60,12 +64,25 @@ body
     bottom: 0;
 
     width: 65%;
-    height: 5%;
+    height: 5vh;
     margin-left: 35%;
 
     text-align: center;
 
     background: rgba(245, 229, 105, .7);
+}
+
+.back_menu
+{
+    position: absolute;
+
+    width: 13.8%;
+    height: 5vh;
+    margin-left: 30%;
+    padding-left: 6%;
+
+    border-radius: 1vh;
+    background: rgba(166, 110, 202, 1);
 }
 
 .data
@@ -88,9 +105,6 @@ body
     height: 5%;
     margin-left: 30%;
     padding-left: 6%;
-
-    border-radius: 1vh;
-    background: rgba(166, 110, 202, 1);
 }
 
 
@@ -178,7 +192,16 @@ body
 
 .icon_footer
 {
-    width: 5.2vh;
+    width: 4.5vh;
+    padding-top: .3vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+}
+
+.icon_menu
+{
+    width: 4vh;
+    padding-top: .5vh;
     padding-right: 2vh;
     padding-left: 2vh;
 }
