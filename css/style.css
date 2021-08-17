@@ -8,8 +8,9 @@ body
     background-image: url('../img/bg.png');
 }
 
-a{
-  text-decoration: none;
+a
+{
+    text-decoration: none;
 }
 
 .info
@@ -226,4 +227,31 @@ a{
 ::-webkit-scrollbar-thumb:hover
 {
     background: rgba(245, 229, 105, .9);
+}
+
+.tooltiptext
+{
+    position: absolute;
+    bottom: -90%;
+
+    visibility: hidden;
+
+    width: 13vh;
+    margin-left: -11vh;
+    padding: 1.3vh 0;
+
+    transition: opacity .2s;
+    text-align: center;
+
+    opacity: 0;
+    color: #fff;
+    border-radius: 5vh;
+    background-color: #555;
+}
+
+.tooltip:hover .tooltiptext
+{
+    visibility: visible;
+
+    opacity: 1;
 }
