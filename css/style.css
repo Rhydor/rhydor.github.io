@@ -68,7 +68,7 @@ a
     position: fixed;
     bottom: 0;
 
-    width: 70vw;
+    width: 8vw;
     height: 5vh;
     margin-left: 30vw;
 
@@ -86,7 +86,7 @@ a
     margin-left: 31.2vw;
     padding-left: 6vh;
 
-    border-radius: 0.8vh;
+    border-radius: .8vh;
     background: var(--prim);
 }
 
@@ -118,11 +118,13 @@ a
     position: fixed;
     bottom: 0;
 
-    width: 65vw;
+    width: 62vw;
     height: 5vh;
-    margin-left: 35vw;
+    margin-left: 38vw;
 
     text-align: center;
+
+    background: var(--foot);
 }
 
 .waveo
