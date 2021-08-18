@@ -255,3 +255,11 @@ a
 
     opacity: 1;
 }
+
+
+.github_stats
+{
+  background-color: rgba(51, 51, 89, .9);
+  border-radius: 5vh;
+
+}
