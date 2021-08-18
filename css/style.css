@@ -1,11 +1,17 @@
+:root
+{
+    --prim: rgba(35, 37, 38, 1);
+    --waveo: rgba(35, 37, 38, .7);
+    --wavet: rgba(35, 37, 38, .5);
+    --foot: rgba(245, 229, 105, .9);
+}
+
 body
 {
     font-family: monospace !important;
-    font-size: 1.5vh;
+    font-size: 1vh*2;
 
     margin: 0;
-
-    background-image: url('../img/bg.png');
 }
 
 a
@@ -19,20 +25,21 @@ a
 
     overflow: auto;
 
-    width: 31.5%;
-    height: 100%;
-    margin-right: 68.5%;
+    width: 31.5vw;
+    height: 100vh;
+    margin-right: 68.5vh;
 
     text-align: center;
 
-    background: rgba(238, 169, 144, 1);
+    color: white;
+    background: var(--prim);
 }
 
 .avatar_round
 {
-    width: 200px;
+    width: 20vh;
 
-    border-radius: 50%;
+    border-radius: 50vh;
 }
 
 .main_info
@@ -52,60 +59,57 @@ a
 {
     position: absolute;
 
-    width: 100%;
-    height: 100%;
-
-    background: rgba(238, 169, 144, .2);
+    width: 100vw;
+    height: 100vh;
 }
-
 
 .back_foot
 {
     position: fixed;
     bottom: 0;
 
-    width: 65%;
+    width: 70vw;
     height: 5vh;
-    margin-left: 35%;
+    margin-left: 30vw;
 
     text-align: center;
 
-    background: rgba(245, 229, 105, .7);
+    background: var(--foot);
 }
 
 .back_menu
 {
     position: absolute;
 
-    width: 28vh;
+    width: 16vw;
     height: 5vh;
-    margin-left: 30%;
-    padding-left: 6%;
+    margin-left: 31.2vw;
+    padding-left: 6vh;
 
-    border-radius: 1vh;
-    background: rgba(166, 110, 202, 1);
-}
-
-.data
-{
-    position: absolute;
-
-    width: 60%;
-    height: 92%;
-    margin-left: 35%;
-    padding-top: 4%;
-    padding-right: 1%;
-    padding-left: 4%;
+    border-radius: 0.8vh;
+    background: var(--prim);
 }
 
 .menu
 {
     position: absolute;
 
-    width: 40vh;
-    height: 5%;
-    margin-left: 30%;
-    padding-left: 6%;
+    width: 16vw;
+    height: 5vh;
+    margin-left: 31.2vw;
+    padding-left: 10vh;
+}
+
+.data
+{
+    position: absolute;
+
+    width: 60vw;
+    height: 92vh;
+    margin-left: 35vw;
+    padding-top: 5.1vh;
+    padding-right: 1vh;
+    padding-left: 4vw;
 }
 
 
@@ -114,11 +118,17 @@ a
     position: fixed;
     bottom: 0;
 
-    width: 65%;
-    height: 5%;
-    margin-left: 35%;
+    width: 65vw;
+    height: 5vh;
+    margin-left: 35vw;
 
     text-align: center;
+}
+
+.waveo
+{
+    width: 100%;
+    height: 100vh;
 }
 
 .wave_0
@@ -126,17 +136,11 @@ a
     position: absolute;
 
     width: auto;
-    height: 100%;
-    margin-left: 26%;
+    height: 100vh;
+    margin-left: 26vw;
 
     stroke: none;
-    fill: rgba(238, 169, 144, 1);
-}
-
-.waveo_0
-{
-    width: 100%;
-    height: 100%;
+    fill: var(--prim);
 }
 
 .wave_1
@@ -144,17 +148,11 @@ a
     position: absolute;
 
     width: auto;
-    height: 100%;
-    margin-left: 28%;
+    height: 100vh;
+    margin-left: 28vw;
 
     stroke: none;
-    fill: rgba(245, 203, 188, .9);
-}
-
-.waveo_1
-{
-    width: 100%;
-    height: 100%;
+    fill: var(--waveo);
 }
 
 .wave_2
@@ -162,33 +160,27 @@ a
     position: absolute;
 
     width: auto;
-    height: 100%;
-    margin-left: 29.6%;
+    height: 100vh;
+    margin-left: 29.6vw;
 
     stroke: none;
-    fill: rgba(248, 220, 210, .7);
-}
-
-.waveo_2
-{
-    width: 100%;
-    height: 100%;
+    fill: var(--wavet);
 }
 
 .data-info
 {
     overflow: auto;
 
-    height: 94%;
+    height: 89.7vh;
 
     text-align: center;
 }
 
 .video
 {
-    width: 75%;
-    height: 50%;
-    padding: 3%;
+    width: 45vw;
+    height: 50vh;
+    padding: 3vh;
 }
 
 .icon_footer
@@ -259,7 +251,6 @@ a
 
 .github_stats
 {
-  background-color: rgba(51, 51, 89, .9);
-  border-radius: 5vh;
-
+    border-radius: 5vh;
+    background-color: rgba(51, 51, 89, .9);
 }
