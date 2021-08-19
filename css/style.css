@@ -110,6 +110,20 @@ a
     padding-top: 5.1vh;
     padding-right: 1vh;
     padding-left: 4vw;
+
+    transition: opacity 2s;
+}
+
+.data_index
+{
+    position: absolute;
+
+    width: 60vw;
+    height: 92vh;
+    margin-left: 35vw;
+    padding-top: 5.1vh;
+    padding-right: 1vh;
+    padding-left: 4vw;
 }
 
 

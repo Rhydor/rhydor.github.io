@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/css-doodle@0.19.2/css-doodle.min.js"></script>
+    <script src="./js/switch.js"type="text/javascript">
+
+    </script>
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <link rel="icon" href="./icon/blockchain.svg">
     <title>Rhydor</title>
@@ -61,29 +64,48 @@
         </div>
     </div>
     </div>
-    <!-- DATA INFO RIGHT SIDE -->
-    <div class="data">
+    <!-- DATA INFO RIGHT SIDE FOR PORTA -->
+    <div class="data" id="data_porta" style="display: none;">
       <div class="data-info">
-        <h1>Web en proceso...</h1>
+        <h1 style="font-size: 10vh">Sección en proceso...</h1>
         <img class="github_stats" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rhydor&theme=cobalt&hide_border=true"/>
+      </div>
+    </div>
+    <!-- DATA INFO RIGHT SIDE FOR TOOLS -->
+    <div class="data" id="data_tools" style="display: none;">
+      <div class="data-info">
+        <h1 style="font-size: 10vh">Sección en proceso...</h1>
+        <img class="github_stats" align="center" src="./img/working.gif"/>
+      </div>
+    </div>
+    <!-- DATA INFO RIGHT SIDE FOR MUSIC -->
+    <div class="data" id="data_music" style="display: none;">
+      <div class="data-info">
         <iframe class="video" src="https://www.youtube.com/embed/LnJc80xTNa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe class="video" src="https://www.youtube.com/embed/VvxfEsvr3e8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe class="video" src="https://www.youtube.com/embed/_p7K2pnmy00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
+    <!-- DATA INFO RIGHT SIDE FOR INDEX -->
+    <div class="data" id="data_index" style="display: block;">
+      <div class="data-info">
+        <h1 style="font-size: 10vh">Web en proceso...</h1>
+        <img src="./img/index.png" align="center" alt="" width="60%">
+      </div>
+    </div>
     <!-- SUPERIOR MENU -->
     <div class="menu">
-      <a href="" class="tooltip">
+      <a href="javascript:SwapDivsWithClick('data_porta','data_index')" class="tooltip">
         <img class="icon_menu" src="./icon/briefcase.svg" alt="Rhydor's briefcase">
         <span class="tooltiptext">Portafolio</span>
       </a>
-      <a href="" class="tooltip">
+      <a href="javascript:SwapDivsWithClick('data_tools','data_index')" class="tooltip">
         <img class="icon_menu" src="./icon/tools.svg" alt="Rhydor's tools">
         <span class="tooltiptext">Herramientas</span>
       </a>
-      <a href="" class="tooltip">
+      <a href="javascript:SwapDivsWithClick('data_music','data_index')" class="tooltip">
         <img class="icon_menu" src="./icon/music.svg" alt="Rhydor's music">
-        <span class="tooltiptext">Mi Musica</span>
+        <span class="tooltiptext">Musica</span>
       </a>
     </div>
     <!-- FOOTER -->
