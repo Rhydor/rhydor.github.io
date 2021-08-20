@@ -3,7 +3,10 @@
     --prim: rgba(35, 37, 38, 1);
     --waveo: rgba(35, 37, 38, .7);
     --wavet: rgba(35, 37, 38, .5);
+    --title: rgba(245, 240, 90, 1);
     --foot: rgba(245, 229, 105, .9);
+    --addp: rgba(255, 239, 180, 1);
+    --vegan:#77dd77;
 }
 
 body
@@ -22,6 +25,7 @@ a
 .tittle
 {
     font-size: 5vh;
+    color: var(--title);
 }
 
 .info
@@ -60,11 +64,9 @@ a
 
 .dance
 {
-    position: absolute;
-    bottom: 0;
+    position: relative;
 
-    width: 31.5vw;
-    margin-right: 0;
+    width: 40vw;
 }
 
 .back
