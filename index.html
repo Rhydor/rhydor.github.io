@@ -12,20 +12,22 @@
     <title>Rhydor</title>
   </head>
   <body>
+    <css-doodle>
+      :doodle {
+        @grid: 20 / 100vw 100vh;
+        background: rgba(35, 37, 38, .8);
+        font-family: sans-serif;
+        position: fixed;
+        overflow: hidden;
+      }
+      :after {
+        content: \@hex.@r(0x2500, 0x257f);
+        color: hsla(@r360, 70%, 70%, @r.9);
+        font-size: 3.7vmin;
+      }
+    </css-doodle>
     <!-- BACKGROUND COLORS -->
     <div class="back">
-      <css-doodle>
-        :doodle {
-          @grid: 20 / 100vw 100vh;
-          background: rgba(35, 37, 38, .8);
-          font-family: sans-serif;
-        }
-        :after {
-          content: \@hex.@r(0x2500, 0x257f);
-          color: hsla(@r360, 70%, 70%, @r.9);
-          font-size: 3.7vmin;
-        }
-      </css-doodle>
     </div>
     <div class="back_foot">
     </div>
