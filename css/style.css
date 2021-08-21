@@ -135,12 +135,11 @@ a
 {
     position: absolute;
 
-    width: 55.4vw;
+    width: 59.4vw;
     height: 93.5%;
     margin-left: 40vw;
     padding-top: 5.1vh;
     padding-right: 1vh;
-    padding-left: 4vw;
 
     transition: opacity 2s;
 }
