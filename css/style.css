@@ -99,7 +99,7 @@ a
     position: fixed;
     bottom: 0;
 
-    width: 8vw;
+    width: 70vw;
     height: 5vh;
     margin-left: 30vw;
 
@@ -168,8 +168,6 @@ a
     margin-left: 38vw;
 
     text-align: center;
-
-    background: var(--foot);
 }
 
 .waveo

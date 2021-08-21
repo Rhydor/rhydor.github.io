@@ -1,10 +1,10 @@
 function SwapDivsWithClick(divo, divt)
 {
-   div1 = document.getElementById(divo);
+   div1 = document.getElementById( divo );
    div2 = document.getElementById("data_porta");
    div3 = document.getElementById("data_tools");
    div4 = document.getElementById("data_music");
-   div5 = document.getElementById(divt);
+   div5 = document.getElementById( divt );
 
    div5.style.display = "none";
 
