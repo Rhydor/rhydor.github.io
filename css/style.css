@@ -186,8 +186,9 @@ a
     height: 100%;
     margin-left: 26vw;
 
-    stroke: none;
     fill: var(--prim);
+
+    align-content: flex-start;
 }
 
 .wave_1
@@ -198,8 +199,9 @@ a
     height: 100%;
     margin-left: 28vw;
 
-    stroke: none;
     fill: var(--waveo);
+
+    align-content: flex-start;
 }
 
 .wave_2
@@ -210,8 +212,9 @@ a
     height: 100%;
     margin-left: 29.6vw;
 
-    stroke: none;
     fill: var(--wavet);
+
+    align-content: flex-start;
 }
 
 .data-info
