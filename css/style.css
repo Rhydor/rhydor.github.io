@@ -99,7 +99,7 @@ a
     position: fixed;
     bottom: 0;
 
-    width: 70vw;
+    width: 10vw;
     height: 5vh;
     margin-left: 30vw;
 
@@ -163,11 +163,13 @@ a
     position: fixed;
     bottom: 0;
 
-    width: 62vw;
+    width: 65vw;
     height: 5vh;
-    margin-left: 38vw;
+    margin-left: 40vw;
 
     text-align: center;
+
+    background: var(--foot);
 }
 
 .waveo
@@ -181,7 +183,7 @@ a
     position: absolute;
 
     width: auto;
-    height: 100vh;
+    height: 100%;
     margin-left: 26vw;
 
     stroke: none;
@@ -193,7 +195,7 @@ a
     position: absolute;
 
     width: auto;
-    height: 100vh;
+    height: 100%;
     margin-left: 28vw;
 
     stroke: none;
@@ -205,7 +207,7 @@ a
     position: absolute;
 
     width: auto;
-    height: 100vh;
+    height: 100%;
     margin-left: 29.6vw;
 
     stroke: none;
