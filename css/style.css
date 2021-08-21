@@ -207,11 +207,19 @@ a
 
 .data-info
 {
-    overflow: auto;
+    overflow-y: scroll;
 
-    height: 97%;
+    height: 96%;
 
     text-align: center;
+}
+
+.data-info::-webkit-scrollbar
+{
+    display: none;  /* Ocultar scroll */
+
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
 }
 
 .video
