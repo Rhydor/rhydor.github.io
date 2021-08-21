@@ -6,7 +6,7 @@
     --title: rgba(245, 240, 90, 1);
     --foot: rgba(245, 229, 105, .9);
     --addp: rgba(255, 239, 180, 1);
-    --vegan:#77dd77;
+    --vegan: #7d7;
 }
 
 body
@@ -22,9 +22,17 @@ a
     text-decoration: none;
 }
 
+.tittle-style
+{
+    font-size: 10vh;
+
+    text-shadow: -1px -1px 0 var(--foot), 1px -1px 0 var(--foot), -1px 1px 0 var(--foot), 1px 1px 0 var(--foot);
+}
+
 .tittle
 {
     font-size: 5vh;
+
     color: var(--title);
 }
 
