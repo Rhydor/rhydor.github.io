@@ -58,6 +58,8 @@ a
 
 .main_info
 {
+    overflow: hidden;
+
     padding: 1vh;
 
     text-align: justify;
