@@ -24,7 +24,7 @@ a
 
 .tittle-style
 {
-    font-size: 10vh;
+    font-size: 8vh;
 
     text-shadow: -1px -1px 0 var(--foot), 1px -1px 0 var(--foot), -1px 1px 0 var(--foot), 1px 1px 0 var(--foot);
 }
