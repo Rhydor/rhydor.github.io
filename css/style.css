@@ -43,10 +43,12 @@ a
     overflow: hidden;
 
     width: 31.5vw;
-    height: 100vh;
+    height: 100%;
 
     color: white;
     background: var(--prim);
+
+    align-content: flex-start;
 }
 
 .avatar
