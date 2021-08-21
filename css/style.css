@@ -145,18 +145,6 @@ a
     transition: opacity 2s;
 }
 
-.data_index
-{
-    position: absolute;
-
-    width: 60vw;
-    height: 93.5%;
-    margin-left: 35vw;
-    padding-top: 5.1vh;
-    padding-right: 1vh;
-    padding-left: 4vw;
-}
-
 
 .foot
 {
@@ -221,7 +209,7 @@ a
 {
     overflow: auto;
 
-    height: 89.7vh;
+    height: 97%;
 
     text-align: center;
 }
