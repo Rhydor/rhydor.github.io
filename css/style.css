@@ -91,7 +91,8 @@ a
 
 .back
 {
-    position: absolute;
+    position: fixed;
+    overflow: hidden;
 }
 
 .back_foot
