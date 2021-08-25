@@ -22,6 +22,17 @@ a
     text-decoration: none;
 }
 
+p
+{
+    font-size: 1.9vh;
+}
+
+.p-italic
+{
+  font-style: italic;
+  color: var(--addp);
+}
+
 .tittle-style
 {
     font-size: 8vh;
