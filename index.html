@@ -12,6 +12,130 @@
     <title>Rhydor</title>
   </head>
   <body>
+    <div class="pc">
+      <!-- BACKGROUND IMAGE -->
+      <css-doodle>
+        :doodle {
+          @grid: 20 / 100vw 100vh;
+          background: rgba(35, 37, 38, .8);
+          font-family: sans-serif;
+          position: fixed;
+          overflow: hidden;
+        }
+        :after {
+          content: \@hex.@r(0x2500, 0x257f);
+          color: hsla(@r360, 70%, 70%, @r.9);
+          font-size: 3.7vmin;
+        }
+      </css-doodle>
+        <!-- BACKGROUND COLORS -->
+      <div class="back_foot">
+      </div>
+      <div class="back_menu">
+      </div>
+      <!-- WAVES LEFT SIDE -->
+      <div class="wave_2">
+        <svg class="waveo" viewBox="0 0 500 150" preserveAspectRatio="none">
+          <path d="M38.94,-0.48 C31.04,58.70 91.98,98.19 46.27,151.47 L0.00,150.00 L0.00,0.00 Z"></path>
+        </svg>
+      </div>
+      <div class="wave_1">
+        <svg class="waveo" viewBox="0 0 500 150" preserveAspectRatio="none">
+          <path d="M38.94,-0.48 C31.04,58.70 91.98,98.19 46.27,151.47 L0.00,150.00 L0.00,0.00 Z"></path>
+        </svg>
+      </div>
+      <div class="wave_0">
+        <svg class="waveo" viewBox="0 0 500 150" preserveAspectRatio="none">
+          <path d="M38.94,-0.48 C31.04,58.70 91.98,98.19 46.27,151.47 L0.00,150.00 L0.00,0.00 Z"></path>
+        </svg>
+      </div>
+      <!-- GENERAL INFO LEFT SIDE -->
+      <div class="info">
+        <div align="center">
+          <h1 class="tittle">Juan Ruiz</h1>
+          <img class="avatar" src="./img/avatar_nb.png" alt="my avatar">
+        </div>
+        <div class="main_info">
+          <h2>SOBRE MI</h2>
+          <p><b style= "color: var(--vegan)">Vegano</b>, amante de la musica y el software en especial de la tecnologia blockchain, actualmente estudiando en Misiontic 2022 y por mi cuenta. Enfocado en Python, Java, lenguajes Web[Html, CSS y Javascript] y Corda.</p>
+          <p class="p-italic"> Espero en un futuro no muy lejano dedicarme al desarrollo de tecnologias basadas en blockchain.</p>
+            <h2 align="center">GITHUB STATS</h2>
+          <div align="center">
+            <img class="github_stats" src="https://github-readme-streak-stats.herokuapp.com/?user=rhydor&theme=cobalt&hide_border=true"/>
+          </div>
+        </div>
+      </div>
+      <!-- DATA INFO RIGHT SIDE FOR PORTA -->
+      <div class="data" id="data_porta" style="display: none;">
+        <div class="data-info">
+          <h1 class="tittle-style" style="margin-top: 20vh;">Mis repositorios</h1>
+          <a href="https://github.com/Rhydor?tab=repositories" target="_blank">
+            <p class="tittle-style"  style="margin-bottom: 0;">📑</p>
+          </a>
+          <p class="tittle-style" style="margin-top: 0;">!Click!</p>
+        </div>
+      </div>
+      <!-- DATA INFO RIGHT SIDE FOR TOOLS -->
+      <div class="data" id="data_tools" style="display: none;">
+        <div class="data-info">
+          <h1 class="tittle-style" style="margin-top: 20vh">Sección en proceso...</h1>
+          <p class="tittle-style">⚙️</p>
+        </div>
+      </div>
+      <!-- DATA INFO RIGHT SIDE FOR MUSIC -->
+      <div class="data" id="data_music" style="display: none;">
+        <div class="data-info">
+          <h1 class="tittle-style" style="margin-top: 0; margin-bottom: 0;">Mis Playlist's</h1>
+          <div class="data-info-content">
+            <iframe class="spotify" src="https://open.spotify.com/embed/playlist/5brFUDtCS9VUJ8OtigZeQ7" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="spotify" src="https://open.spotify.com/embed/playlist/4JJSA4dQycBgMStvcUcZET" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="spotify" src="https://open.spotify.com/embed/playlist/5wH5ZRf0iEl36OGbvAtrIk" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="spotify" src="https://open.spotify.com/embed/playlist/2SQDtrXNdzQDzvLCDUM0Iv" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="spotify" src="https://open.spotify.com/embed/playlist/5E3Itp6t8DeyEswbmrpG4x" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="spotify" src="https://open.spotify.com/embed/playlist/08D2hwu9CsV3e6ZAkwgkK4" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- DATA INFO RIGHT SIDE FOR INDEX -->
+      <div class="data" id="data_index" style="display: block;">
+        <div class="data-info">
+          <h1 class="tittle-style" style="margin-top: 20vh; margin-bottom: 0">Web en proceso</h1>
+          <img class="dance" src="./img/dance.gif">
+        </div>
+      </div>
+      <!-- SUPERIOR MENU -->
+      <div class="menu">
+        <a href="javascript:SwapDivsWithClick('data_porta','data_index')" class="tooltip">
+          <img class="icon_menu" src="./icon/briefcase.svg" alt="Rhydor's briefcase">
+          <span class="tooltiptext">Portafolio</span>
+        </a>
+        <a href="javascript:SwapDivsWithClick('data_tools','data_index')" class="tooltip">
+          <img class="icon_menu" src="./icon/tools.svg" alt="Rhydor's tools">
+          <span class="tooltiptext">Herramientas</span>
+        </a>
+        <a href="javascript:SwapDivsWithClick('data_music','data_index')" class="tooltip">
+          <img class="icon_menu" src="./icon/music.svg" alt="Rhydor's music">
+          <span class="tooltiptext">Musica</span>
+        </a>
+      </div>
+      <!-- FOOTER -->
+      <div class="foot">
+        <a href="https://www.github.com/Rhydor" target="_blank">
+          <img class="icon_footer" src="./icon/github.svg" alt="Rhydor's github">
+        </a>
+        <a href="https://www.linkedin.com/in/juan-ruiz-jimenez-819627218/" target="_blank">
+          <img class="icon_footer" src="./icon/linkedin.svg" alt="Rhydor's linkedin">
+        </a>
+        <a href="https://open.spotify.com/user/juanc2254?si=80c97dcc347d4ac8" target="_blank">
+          <img class="icon_footer" src="./icon/spotify.svg" alt="Rhydor's spotify">
+        </a>
+        <a href="./template/index.html">
+          <img class="icon_footer" src="./icon/test.svg" alt="Responsive">
+        </a>
+      </div>
+    </div>
+  </body>
+  <div class="mobile">
     <!-- BACKGROUND IMAGE -->
     <css-doodle>
       :doodle {
@@ -27,110 +151,22 @@
         font-size: 3.7vmin;
       }
     </css-doodle>
-      <!-- BACKGROUND COLORS -->
-    <div class="back_foot">
-    </div>
-    <div class="back_menu">
-    </div>
-    <!-- WAVES LEFT SIDE -->
-    <div class="wave_2">
-      <svg class="waveo" viewBox="0 0 500 150" preserveAspectRatio="none">
-        <path d="M38.94,-0.48 C31.04,58.70 91.98,98.19 46.27,151.47 L0.00,150.00 L0.00,0.00 Z"></path>
-      </svg>
-    </div>
-    <div class="wave_1">
-      <svg class="waveo" viewBox="0 0 500 150" preserveAspectRatio="none">
-        <path d="M38.94,-0.48 C31.04,58.70 91.98,98.19 46.27,151.47 L0.00,150.00 L0.00,0.00 Z"></path>
-      </svg>
-    </div>
-    <div class="wave_0">
-      <svg class="waveo" viewBox="0 0 500 150" preserveAspectRatio="none">
-        <path d="M38.94,-0.48 C31.04,58.70 91.98,98.19 46.27,151.47 L0.00,150.00 L0.00,0.00 Z"></path>
-      </svg>
-    </div>
-    <!-- GENERAL INFO LEFT SIDE -->
-    <div class="info">
-      <div align="center">
-        <h1 class="tittle">Juan Ruiz</h1>
-        <img class="avatar" src="./img/avatar_nb.png" alt="my avatar">
-      </div>
-      <div class="main_info">
-        <h2>SOBRE MI</h2>
-        <p><b style= "color: var(--vegan)">Vegano</b>, amante de la musica y el software en especial de la tecnologia blockchain, actualmente estudiando en Misiontic 2022 y por mi cuenta. Enfocado en Python, Java, lenguajes Web[Html, CSS y Javascript] y Corda.</p>
-        <p class="p-italic"> Espero en un futuro no muy lejano dedicarme al desarrollo de tecnologias basadas en blockchain.</p>
-          <h2 align="center">GITHUB STATS</h2>
-        <div align="center">
-          <img class="github_stats" src="https://github-readme-streak-stats.herokuapp.com/?user=rhydor&theme=cobalt&hide_border=true"/>
-        </div>
-      </div>
-    </div>
-    <!-- DATA INFO RIGHT SIDE FOR PORTA -->
-    <div class="data" id="data_porta" style="display: none;">
-      <div class="data-info">
-        <h1 class="tittle-style" style="margin-top: 20vh;">Mis repositorios</h1>
-        <a href="https://github.com/Rhydor?tab=repositories" target="_blank">
-          <p class="tittle-style"  style="margin-bottom: 0;">📑</p>
-        </a>
-        <p class="tittle-style" style="margin-top: 0;">!Click!</p>
-      </div>
-    </div>
-    <!-- DATA INFO RIGHT SIDE FOR TOOLS -->
-    <div class="data" id="data_tools" style="display: none;">
-      <div class="data-info">
-        <h1 class="tittle-style" style="margin-top: 20vh">Sección en proceso...</h1>
-        <p class="tittle-style">⚙️</p>
-      </div>
-    </div>
-    <!-- DATA INFO RIGHT SIDE FOR MUSIC -->
-    <div class="data" id="data_music" style="display: none;">
-      <div class="data-info">
-        <h1 class="tittle-style" style="margin-top: 0; margin-bottom: 0;">Mis Playlist's</h1>
-        <div class="data-info-content">
-          <iframe class="spotify" src="https://open.spotify.com/embed/playlist/5brFUDtCS9VUJ8OtigZeQ7" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          <iframe class="spotify" src="https://open.spotify.com/embed/playlist/4JJSA4dQycBgMStvcUcZET" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          <iframe class="spotify" src="https://open.spotify.com/embed/playlist/5wH5ZRf0iEl36OGbvAtrIk" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          <iframe class="spotify" src="https://open.spotify.com/embed/playlist/2SQDtrXNdzQDzvLCDUM0Iv" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          <iframe class="spotify" src="https://open.spotify.com/embed/playlist/5E3Itp6t8DeyEswbmrpG4x" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          <iframe class="spotify" src="https://open.spotify.com/embed/playlist/08D2hwu9CsV3e6ZAkwgkK4" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-      </div>
-    </div>
-    <!-- DATA INFO RIGHT SIDE FOR INDEX -->
-    <div class="data" id="data_index" style="display: block;">
-      <div class="data-info">
-        <h1 class="tittle-style" style="margin-top: 20vh; margin-bottom: 0">Web en proceso</h1>
-        <img class="dance" src="./img/dance.gif">
-      </div>
-    </div>
-    <!-- SUPERIOR MENU -->
-    <div class="menu">
-      <a href="javascript:SwapDivsWithClick('data_porta','data_index')" class="tooltip">
-        <img class="icon_menu" src="./icon/briefcase.svg" alt="Rhydor's briefcase">
-        <span class="tooltiptext">Portafolio</span>
-      </a>
-      <a href="javascript:SwapDivsWithClick('data_tools','data_index')" class="tooltip">
-        <img class="icon_menu" src="./icon/tools.svg" alt="Rhydor's tools">
-        <span class="tooltiptext">Herramientas</span>
-      </a>
-      <a href="javascript:SwapDivsWithClick('data_music','data_index')" class="tooltip">
-        <img class="icon_menu" src="./icon/music.svg" alt="Rhydor's music">
-        <span class="tooltiptext">Musica</span>
-      </a>
-    </div>
-    <!-- FOOTER -->
-    <div class="foot">
-      <a href="https://www.github.com/Rhydor" target="_blank">
-        <img class="icon_footer" src="./icon/github.svg" alt="Rhydor's github">
-      </a>
-      <a href="https://www.linkedin.com/in/juan-ruiz-jimenez-819627218/" target="_blank">
-        <img class="icon_footer" src="./icon/linkedin.svg" alt="Rhydor's linkedin">
-      </a>
-      <a href="https://open.spotify.com/user/juanc2254?si=80c97dcc347d4ac8" target="_blank">
-        <img class="icon_footer" src="./icon/spotify.svg" alt="Rhydor's spotify">
-      </a>
-      <a href="./template/index.html">
-        <img class="icon_footer" src="./icon/test.svg" alt="Responsive">
-      </a>
-    </div>
-  </body>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+    <h1 style="margin: 0; text-align: center;"> RESPONSIVE EN PROCESO </h1>
+  </div>
 </html>

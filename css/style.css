@@ -1,3 +1,61 @@
+@media only screen and (max-width: 1079px) and (orientation: portrait)
+{
+    .mobile
+    {
+        display: block;
+    }
+    .pc
+    {
+        display: none;
+    }
+}
+@media only screen and (max-height: 890px) and (orientation: landscape)
+{
+    .mobile
+    {
+        display: block;
+    }
+    .pc
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1079px) and (orientation: portrait)
+{
+    .mobile
+    {
+        display: block;
+    }
+    .pc
+    {
+        display: none;
+    }
+}
+/* PC */
+@media only screen and (min-height: 890px) and (orientation: landscape)
+           ,screen and (min-width: 1080px) and (orientation: landscape)
+{
+    .mobile
+    {
+        display: none;
+    }
+    .pc
+    {
+        display: block;
+    }
+}
+@media only screen and (min-width: 1080px) and (orientation: portrait)
+{
+    .mobile
+    {
+        display: none;
+    }
+    .pc
+    {
+        display: block;
+    }
+}
+
 /* GENERAL */
 :root
 {
@@ -11,6 +69,14 @@
 }
 
 body
+{
+    font-family: monospace !important;
+    font-size: 1.5vh;
+
+    margin: 0;
+}
+
+.mobile
 {
     font-family: monospace !important;
     font-size: 1.5vh;
@@ -163,8 +229,9 @@ p
 
 .p-italic
 {
-  font-style: italic;
-  color: var(--addp);
+    font-style: italic;
+
+    color: var(--addp);
 }
 
 .avatar
@@ -241,7 +308,7 @@ p
 {
     width: 50vh;
     height: 230px;
-    margin-top: 0.5vh;
+    margin-top: .5vh;
     margin-right: 1vw;
     margin-left: 1vw;
 }
@@ -254,6 +321,7 @@ p
     width: 58vw;
     height: 5vh;
     margin-left: 40vw;
+
     text-align: center;
 }
 
